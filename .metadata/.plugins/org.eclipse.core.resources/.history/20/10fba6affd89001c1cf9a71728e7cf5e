@@ -1,0 +1,31 @@
+package com.testngtest;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class Example_002 {
+WebDriver driver;
+@Test
+public void lauchURL() {
+	String baseUrl = "https://opensource-demo.orangehrmlive.com/";
+	System.out.println("launching orangehrm website");
+	driver = new ChromeDriver();
+	driver.get(baseUrl);
+	String testTitle = "OrangeHRMtest";
+	String actualTitle = driver.getTitle();
+	
+}
+
+
+public void beforeMethod() {
+	System.out.println("Starting test on chrome browser");
+}
+
+public void AfterMethod() {
+	System.out.println("Closing browser");
+	driver.close();
+}
+
+
+}

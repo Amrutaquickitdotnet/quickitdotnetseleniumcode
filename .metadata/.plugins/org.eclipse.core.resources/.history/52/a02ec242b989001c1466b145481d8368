@@ -1,0 +1,13 @@
+package utilities;
+
+public class Hooks {
+
+	
+	public void beforescenario() {
+		System.out.println("This will run before the scenario");
+	}
+	
+public void afterScenario() {
+	System.out.println("This will run After the scenario");
+	}
+}

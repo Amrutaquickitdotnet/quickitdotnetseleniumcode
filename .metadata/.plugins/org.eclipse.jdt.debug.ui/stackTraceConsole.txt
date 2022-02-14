@@ -1,0 +1,31 @@
+io.cucumber.junit.UndefinedStepException: The step 'I have valid url to be enter' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I have valid url to be enter")
+public void i_have_valid_url_to_be_enter() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enters credentials to login Details")
+public void i_enters_credentials_to_login_details(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+@When("click on login button")
+public void click_on_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I can able to login successfully")
+public void i_can_able_to_login_successfully() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

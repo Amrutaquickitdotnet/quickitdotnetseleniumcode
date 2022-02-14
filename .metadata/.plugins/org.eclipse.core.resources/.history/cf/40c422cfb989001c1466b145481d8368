@@ -1,0 +1,23 @@
+package utilities;
+
+import org.junit.runner.RunWith;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		features = "G:\\CucumberProject\\HooksinCucumber\\src\\test\\java\\Feature\\Test.feature",
+		glue = {"G:\\CucumberProject\\HooksinCucumber\\src\\test\\java\\stepDefination\\Hooks_Steps.java"}
+		)
+public class Hooks {
+
+	
+	public void beforescenario() {
+		System.out.println("This will run before the scenario");
+	}
+	
+public void afterScenario() {
+	System.out.println("This will run After the scenario");
+	}
+}

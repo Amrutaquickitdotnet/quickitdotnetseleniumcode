@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-08T20:46:08 IST" name="Default suite" finished-at="2022-02-08T20:46:19 IST" duration-ms="10765">
+    <groups>
+    </groups>
+    <test started-at="2022-02-08T20:46:08 IST" name="Default test" finished-at="2022-02-08T20:46:19 IST" duration-ms="10765">
+      <class name="allurereport.FunctioningofAllure">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:allurereport.FunctioningofAllure@742ff096]" started-at="2022-02-08T20:46:08 IST" name="launchbrowser" finished-at="2022-02-08T20:46:12 IST" duration-ms="4194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="verifyPageTitle()[pri:0, instance:allurereport.FunctioningofAllure@742ff096]" started-at="2022-02-08T20:46:12 IST" name="verifyPageTitle" finished-at="2022-02-08T20:46:18 IST" duration-ms="5280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:allurereport.FunctioningofAllure@742ff096]" started-at="2022-02-08T20:46:19 IST" name="closebrowser" finished-at="2022-02-08T20:46:19 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- allurereport.FunctioningofAllure -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

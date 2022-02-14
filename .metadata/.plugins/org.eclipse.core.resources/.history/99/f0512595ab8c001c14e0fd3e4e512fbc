@@ -1,0 +1,18 @@
+package com.grid;
+
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.Browser;
+import org.openqa.selenium.remote.BrowserType;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+public class BaseTest{
+public WebDriver driver= null ;
+public void openBrowser(String browserName) {
+	DesiredCapabilities cap = new DesiredCapabilities();
+	if(browserName.equalsIgnoreCase("chrome")) {
+		cap.setPlatform(Platform.ANY);
+		cap.setBrowserName(BrowserType.CHROME);
+	}
+}
+}

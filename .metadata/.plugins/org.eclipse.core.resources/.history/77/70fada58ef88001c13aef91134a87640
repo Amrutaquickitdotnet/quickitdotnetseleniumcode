@@ -1,0 +1,24 @@
+package allurereport;
+
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class FunctioningofAllure {
+  // @Test =. Actual testing of my test cases
+	
+	
+	@BeforeTest
+  public void launchbrowser() {
+  }
+	
+	
+	@Test
+	  public void verifyPageTitle() {
+	  }
+	
+	
+	@Test
+	  public void closebrowser() {
+		
+	  }
+}

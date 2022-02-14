@@ -1,0 +1,10 @@
+package com.grid;
+
+public class seleniumgrid {
+
+	public static void main(String[] args) {
+		String baseUrl = "https://www.google.com";
+
+	}
+
+}

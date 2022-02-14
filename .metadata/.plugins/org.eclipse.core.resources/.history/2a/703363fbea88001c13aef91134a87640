@@ -1,0 +1,9 @@
+package report;
+
+import org.testng.annotations.Test;
+
+public class AllureTest {
+  @Test
+  public void f() {
+  }
+}

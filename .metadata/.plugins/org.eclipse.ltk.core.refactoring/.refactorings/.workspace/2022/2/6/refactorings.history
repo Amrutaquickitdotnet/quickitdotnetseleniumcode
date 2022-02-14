@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CucumberProject_004_DataTable&apos; to &apos;CucumberProject_004_DataTable_asList&apos;" description="Rename resource &apos;CucumberProject_004_DataTable&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/CucumberProject_004_DataTable" name="CucumberProject_004_DataTable_asList" stamp="1644060228038" updateReferences="true"/>
+</session>

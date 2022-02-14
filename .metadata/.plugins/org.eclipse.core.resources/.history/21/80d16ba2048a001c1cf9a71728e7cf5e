@@ -1,0 +1,43 @@
+package com.testngtest;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class Example_004_groups {
+	 WebDriver driver;
+	 String actualTitle;
+	
+	String title = "OrangeHrm";
+	@Test(groups = {"orangehrmtitle"})
+	public void starting_point() {
+		String baseUrl = "https://opensource-demo.orangehrmlive.com";
+		System.out.println("launching orangehrm website");
+		System.setProperty("webdriver.chrome.driver", "G:\\drivers\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get(baseUrl);
+		 actualTitle = driver.getTitle();
+		
+	}
+
+
+	@Test(groups = {"orangehrmtitle"})
+	public void checkTitle() 
+	{
+		
+		String testTitle = "OrangeHRM";
+		
+		Assert.assertEquals(actualTitle, testTitle);
+		
+		System.out.println("Thanks");
+		
+	}
+	@Test
+	public void verifyTitle() {
+		System.out.println("Title has been verified");
+	}
+
+
+
+}
